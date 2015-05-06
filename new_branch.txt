@@ -1,0 +1,11 @@
+git branch new_branch
+git checkout -b new_branch
+git branch 
+git branch -a
+git branch -d new_branch
+
+create remote branch 
+git push origin local_branch:new_remote_branch
+
+delete remote branch 
+git push origin null_branch:remote_branch
